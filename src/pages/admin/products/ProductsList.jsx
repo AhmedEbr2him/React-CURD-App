@@ -20,7 +20,7 @@ const ProductsList = () => {
 
       <div className='row mb-3'>
         <div className='col'>
-          <Link href='/admin/products/create' className='btn btn-primary me-1' role='button'>
+          <Link to='/admin/products/create' className='btn btn-primary me-1' role='button'>
             Add new product
           </Link>
           <button href='' className='btn btn-outline-primary' onClick={() => getProducts()}>
