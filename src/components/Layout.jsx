@@ -1,21 +1,12 @@
-<<<<<<< HEAD
 import { Link } from 'react-router-dom';
 
-=======
->>>>>>> da0a1f21ed78a1063f20d14ea5ddd21e6999c2d9
 export const Navbar = () => {
   return (
     <nav className='navbar navbar-expand-lg bg-white border-bottom box-shadow'>
       <div className='container'>
-<<<<<<< HEAD
         <Link to='/' className='navbar-brand'>
           Store
         </Link>
-=======
-        <a className='navbar-brand' href='#'>
-          Store
-        </a>
->>>>>>> da0a1f21ed78a1063f20d14ea5ddd21e6999c2d9
         <button
           className='navbar-toggler'
           type='button'
@@ -30,7 +21,6 @@ export const Navbar = () => {
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
             <li className='nav-item'>
-<<<<<<< HEAD
               <Link to='/' className='nav-link text-dark' aria-current='page'>
                 Home
               </Link>
@@ -39,16 +29,6 @@ export const Navbar = () => {
               <Link to='/contact' className='nav-link text-dark'>
                 Contact
               </Link>
-=======
-              <a className='nav-link text-dark' aria-current='page' href='#'>
-                Home
-              </a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link text-dark' href='#'>
-                Contact
-              </a>
->>>>>>> da0a1f21ed78a1063f20d14ea5ddd21e6999c2d9
             </li>
           </ul>
 
@@ -56,10 +36,6 @@ export const Navbar = () => {
             <li className='nav-item dropdown'>
               <a
                 className='nav-link dropdown-toggle text-dark'
-<<<<<<< HEAD
-=======
-                href='#'
->>>>>>> da0a1f21ed78a1063f20d14ea5ddd21e6999c2d9
                 role='button'
                 data-bs-toggle='dropdown'
                 aria-expanded='false'
@@ -68,35 +44,22 @@ export const Navbar = () => {
               </a>
               <ul className='dropdown-menu'>
                 <li>
-<<<<<<< HEAD
-                  <Link to='' className='dropdown-item text-dark'>
+                  <Link to='/admin/products' className='dropdown-item text-dark'>
                     Products
                   </Link>
                 </li>
                 <li>
-                  <Link className='dropdown-item text-dark'>Profile</Link>
-=======
-                  <a className='dropdown-item text-dark' href='#'>
-                    Products
-                  </a>
-                </li>
-                <li>
-                  <a className='dropdown-item text-dark' href='#'>
+                  <Link to='/profile' className='dropdown-item text-dark'>
                     Profile
-                  </a>
->>>>>>> da0a1f21ed78a1063f20d14ea5ddd21e6999c2d9
+                  </Link>
                 </li>
                 <li>
                   <hr className='dropdown-divider' />
                 </li>
                 <li>
-<<<<<<< HEAD
-                  <Link className='dropdown-item text-dark'>Logout</Link>
-=======
-                  <a className='dropdown-item text-dark' href='#'>
+                  <Link to='/logout' className='dropdown-item text-dark'>
                     Logout
-                  </a>
->>>>>>> da0a1f21ed78a1063f20d14ea5ddd21e6999c2d9
+                  </Link>
                 </li>
               </ul>
             </li>
